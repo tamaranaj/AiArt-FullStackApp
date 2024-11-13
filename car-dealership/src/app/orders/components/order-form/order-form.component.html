@@ -1,0 +1,109 @@
+<form [formGroup]="orderForm" (ngSubmit)="submitForm()">
+  <mat-form-field class="example-full-width">
+    <mat-icon matSuffix>phone</mat-icon>
+    <mat-label>Phone number</mat-label>
+    <input
+      matInput
+      type="tel"
+      placeholder="1234567890"
+      formControlName="phone"
+    />
+    <mat-hint style="color: white"
+      >Phone number should be from 9 to 13 numbers.</mat-hint
+    >
+    @if(this.orderForm.get('phone')?.hasError('required')){
+    <mat-error style="color: red">Phone number is required.</mat-error>
+    }@if(this.orderForm.get('phone')?.hasError('pattern')){
+    <mat-error style="color: red">Enter a valid phone number.</mat-error>
+    }
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Email</mat-label>
+    <input
+      type="email"
+      matInput
+      formControlName="email"
+      placeholder="Ex. pat@example.com"
+    />
+
+    @if(this.orderForm.get('email')?.hasError('required')){
+    <mat-error style="color: red">Email address is required.</mat-error>
+    }@if(this.orderForm.get('email')?.hasError('pattern')){
+    <mat-error style="color: red">Enter a valid email address</mat-error>
+    }
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Cardholder name</mat-label>
+    <input
+      type="text"
+      matInput
+      formControlName="fullName"
+      placeholder="Ex. Jane Doe"
+    />
+    @if(this.orderForm.get('fullName')?.hasError('required')){
+    <mat-error style="color: red">Cardholder name is required.</mat-error>
+    }@if(this.orderForm.get('fullName')?.hasError('pattern')){
+    <mat-error style="color: red">Enter a valid first and last name.</mat-error>
+    }
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Card number</mat-label>
+    <input
+      type="text"
+      matInput
+      formControlName="card"
+      placeholder="0123456789123456"
+    />
+    <mat-hint align="end" style="color: white"
+      >{{ orderForm.get("card")?.value.length }}/16</mat-hint
+    >
+    @if(this.orderForm.get('card')?.hasError('required')){
+    <mat-error style="color: red">Card number is required.</mat-error>
+    }@if(this.orderForm.get('card')?.hasError('pattern')){
+    <mat-error style="color: red">Enter a valid card number.</mat-error>
+    }@if(this.orderForm.get('card')?.hasError('minlength')||this.orderForm.get('card')?.hasError('maxlength')){
+    <mat-error style="color: red"
+      >Card number should be 16 characters.</mat-error
+    >
+    }
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Cvv</mat-label>
+    <input type="text" matInput formControlName="cvv" placeholder="123" />
+
+    @if(this.orderForm.get('cvv')?.hasError('required')){
+    <mat-error style="color: red">Cvv field is required.</mat-error>
+    }@if(this.orderForm.get('cvv')?.hasError('pattern')){
+    <mat-error style="color: red">Enter a valid cvv number.</mat-error>
+    }
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-icon matPrefix dense color="primary">calendar_month</mat-icon>
+    <mat-label>Expire date</mat-label>
+
+    <input
+      type="text"
+      matInput
+      placeholder="04/25"
+      required
+      formControlName="expireDate"
+    />
+    @if(this.orderForm.get('expireDate')?.hasError('required')){
+    <mat-error style="color: red">Card expire date is required.</mat-error>
+    }@if(this.orderForm.get('expireDate')?.hasError('pattern')){
+    <mat-error style="color: red"
+      >Enter a valid card expire date number.</mat-error
+    >
+    }
+  </mat-form-field>
+  <div>
+    <button
+      mat-flat-button
+      type="submit"
+      color="primary"
+      [disabled]="this.orderForm.invalid"
+    >
+      Submit
+    </button>
+  </div>
+</form>

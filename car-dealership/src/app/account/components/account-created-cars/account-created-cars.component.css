@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}
+.example-card {
+    max-width: 350px;
+    background-color: #afd2f5;
+}
+a{
+    width: 100%;
+    border-radius: inherit;
+}
+.image{
+    max-width: 300px;
+    border-radius: inherit;
+}
+
+
+.addMore{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}

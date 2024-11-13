@@ -1,0 +1,73 @@
+.card{
+    /* background-color: #CECEF4; */
+    background-color: #3a3a3a;
+    box-shadow:1px 1px 7px #1869db, 0 0 5px #1c6cd5, 0 0 5px #0e3e81;
+    width: 300px;
+    height: 410px;
+    display: flex;
+}
+.logo{
+    width: 60px;
+    border-radius: 40%;
+}
+
+mat-card-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.card, mat-card-title, mat-card-subtitle{
+   font: 0.9rem sans-serif;
+}
+
+mat-card-content{
+    margin: 5px;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.description{
+    text-align: justify;
+}
+.order{
+    display: flex;
+    justify-content: center;
+}
+
+.favoriteBtn{
+    width: 40px;
+    height: 40px;
+    color: 0e3e81c8;
+    cursor:pointer;
+}
+.favoriteBtn:hover{
+    color: #0e3e81c8;
+}
+.image{
+    padding: 5px;
+    width: 295px;
+    height: 150px;
+    cursor: pointer;
+}
+@media (any-hover: hover) and (any-pointer: fine) {
+    .card {
+        transition: transform 500ms ease-in;
+        
+    }
+  
+    .card:hover,
+    .card:focus-within {
+        transform: scale(1.05);
+        transition: transform 500ms ease-in;
+        box-shadow:1px 2px 4px #1869db, 0 0 25px #4d8de6, 0 0 5px #0e3e81;
+    }
+  
+    .card:focus-within {
+        transition-duration: 0ms;
+    }
+  
+  } 

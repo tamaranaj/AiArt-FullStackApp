@@ -1,0 +1,15 @@
+.filters{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+    
+
+}
+.filterCont{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}

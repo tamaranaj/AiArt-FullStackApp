@@ -1,0 +1,36 @@
+<mat-card class="card" appearance="outlined">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image">
+      <img src="file.png" alt="logo" width="100%" class="logo" />
+    </div>
+    <mat-card-title>{{ car().brand }} {{ car().model }}</mat-card-title>
+    <mat-card-subtitle>{{ car().price | currency : "EUR" }}</mat-card-subtitle>
+  </mat-card-header>
+  <div class="info">
+    <a routerLink="cars/{{ car().id }}"
+      ><img
+        mat-card-image
+        [src]="car().images[0]"
+        [alt]="car().model"
+        class="image"
+      />
+    </a>
+
+    <mat-card-content>
+      <p class="description">{{ car().description }}</p>
+      <mat-card-actions>
+        <button
+          mat-fab
+          aria-label=" icon button with a heart icon"
+          class="favoriteBtn"
+          (click)="handleAddFavorites(car())"
+        >
+          <mat-icon>favorite</mat-icon>
+        </button>
+      </mat-card-actions>
+    </mat-card-content>
+    <div class="order">
+      <button mat-flat-button (click)="goToOrders(car().id)">make order</button>
+    </div>
+  </div>
+</mat-card>

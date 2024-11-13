@@ -1,0 +1,87 @@
+<main>
+  <div class="details">
+    <div class="img-container">
+      @if(car?.images?.length){
+      <img [src]="car?.images?.at(image())" [alt]="car?.model" class="image" />
+      <button
+        class="btn"
+        mat-icon-button
+        aria-label="Example icon button with a vertical three dot icon"
+        (click)="loopImages('next')"
+      >
+        <mat-icon>arrow_forward_ios</mat-icon>
+      </button>
+      <button
+        class="btn2"
+        mat-icon-button
+        aria-label="Example icon button with a vertical three dot icon"
+        (click)="loopImages('previous')"
+      >
+        <mat-icon>arrow_back_ios</mat-icon>
+      </button>
+
+      }
+    </div>
+    <div class="info">
+      <h4>{{ car?.brand }} - {{ car?.model }}</h4>
+      <p>
+        Price: <span>{{ car?.price | currency }}</span>
+      </p>
+      <p>{{ car?.description }}</p>
+      <p>
+        Location: <span>{{ car?.location?.city }}</span> ,
+        <span> {{ car?.location?.country }}</span>
+      </p>
+      <mat-icon
+        [matBadge]="car?.seats"
+        aria-hidden="false"
+        matTooltip="Has {{ car?.seats }} seats."
+        >airline_seat_recline_normal</mat-icon
+      >
+      <mat-icon
+        matTooltip="Has {{ car?.doors }} doors."
+        aria-hidden="false"
+        [matBadge]="car?.doors"
+        >door_back</mat-icon
+      >
+      <hr />
+
+      <mat-accordion>
+        <mat-expansion-panel hideToggle>
+          <mat-expansion-panel-header>
+            <mat-panel-title> <span>Car details:</span></mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <p>
+            Car type: <span>{{ car?.type }}</span>
+          </p>
+          <p>
+            Fuel type: <span>{{ car?.fuelType }}</span>
+          </p>
+          <p>
+            Transmission: <span>{{ car?.transmission }}</span>
+          </p>
+          <p>
+            Distance: <span>{{ car?.distance }} km</span>
+          </p>
+          <p>
+            Year: <span>{{ car?.year }}</span> |
+            <span>{{ car?.isNew == false ? "old" : "new" }}</span>
+          </p>
+        </mat-expansion-panel>
+        <mat-expansion-panel
+          (opened)="panelOpenState.set(true)"
+          (closed)="panelOpenState.set(false)"
+        />
+      </mat-accordion>
+      <div class="btnCont">
+        <button mat-flat-button (click)="goToOrders(car?.id)">
+          Make order
+        </button>
+        <button mat-flat-button (click)="handleAddFavorites(car)">
+          Add to favorites
+        </button>
+      </div>
+    </div>
+  </div>
+</main>

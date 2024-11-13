@@ -1,0 +1,63 @@
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 40px;
+  
+    color: white;
+    /* background-color: #8a9bb4; */
+
+}
+.img-container{
+  position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    width: 80%;
+    height: 80%;
+}
+.image{
+  
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 30%;
+    padding: 20px;
+}
+.btn{
+  color: white;
+  position: absolute;
+  bottom: 50%;
+  left: 100%;
+}
+.btn2{
+  color: white;
+  position: absolute;
+  bottom: 50%;
+  right: 100%;
+}
+.info{
+    padding: 20px;
+}
+
+span{
+    font-weight: 600;
+}
+.suggestions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCont{
+  margin: 30px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}

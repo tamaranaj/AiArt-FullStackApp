@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+
+main {
+    color: #fff;
+    font-family: "Inter", "DM Sans", Arial, sans-serif;
+}
+
+
+header {
+    margin-bottom: 0px;
+}
+
+.imgText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 1em;
+    /* h6{
+        text-shadow: 5px 12px 15px #0d69eac8;;
+    } */
+}
+
+.img-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    height: auto;
+
+}
+
+img {
+   width: 100%;
+   height: 30%;
+}
+
+.btn {
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    left: 95%;
+}
+
+.btn2 {
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    right: 95%;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.txt{
+    position: absolute;
+    padding: 20px 50px 20px 50px;
+    width: 93%;
+    bottom:0%;
+    background-color: rgba(149, 157, 164, 0.742);
+}

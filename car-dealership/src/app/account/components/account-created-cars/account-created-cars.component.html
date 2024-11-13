@@ -1,0 +1,38 @@
+<section class="container">
+  @if(listedCars().length){ @for (item of listedCars(); track $index) {
+
+  <mat-card class="example-card" appearance="outlined">
+    <a routerLink="/cars/{{ item.id }}">
+      <img
+        mat-card-image
+        [src]="item.images[0]"
+        [alt]="item.id"
+        class="image"
+      />
+    </a>
+    <mat-card-content
+      style="
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        padding-top: 10px;
+      "
+    >
+      <mat-chip>{{ item.brand }} - {{ item.model }}</mat-chip>
+
+      <mat-chip>{{ item.price | currency }}</mat-chip>
+    </mat-card-content>
+    <mat-card-actions style="display: flex; justify-content: center">
+      <button mat-flat-button>Remove</button>
+    </mat-card-actions>
+  </mat-card>
+  } }@else {
+  <div>
+    <p>You haven't added any cars yet.</p>
+  </div>
+  }
+</section>
+<div class="addMore">
+  <button mat-flat-button (click)="addNewCar()">Add new car</button>
+</div>

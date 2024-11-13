@@ -1,0 +1,69 @@
+<section class="container">
+  <div class="readyToHelp">
+    <h1>Have a question?</h1>
+    <p>
+      We are here to help! Fill out form or reach us via e-mail or phone. Our
+      Customer Care Team is available to help you get the best experience out of
+      Lethal Garage whether you have an issue about your order or looking for
+      helpful car tips.
+    </p>
+    <p>
+      Everyone get a personalized response, so please allow 24 hours during
+      business hours for a reply. Our business hours are M-F from 9am to 5pm PT.
+    </p>
+
+    <ul>
+      <li>
+        <mat-icon
+          style="
+            text-shadow: 1px 1px 2px #1869db, 0 0 5px #0e3e81, 0 0 5px #5191ea;
+          "
+          >mail</mat-icon
+        >
+        <span>lethalGarage&#64;gmail.com</span>
+      </li>
+
+      <li>
+        <mat-icon
+          style="
+            text-shadow: 1px 1px 2px #1869db, 0 0 5px #0e3e81, 0 0 5px #5191ea;
+          "
+          >call</mat-icon
+        >
+        <span>+389 78 123 123</span>
+      </li>
+    </ul>
+  </div>
+  <div class="form">
+    <app-contact-form (submitted)="this.ifFormSubmitted.set($event)" />
+  </div>
+  @if(this.ifFormSubmitted()== true){
+  <div class="msgContainer">
+    <div class="message">
+      <p>Thank you for writing us!</p>
+      <p>
+        As soon as your message is reviewed, you will receive a response from
+        our team on email or you will be contacted on the specified phone
+        number.
+      </p>
+      <div
+        style="
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          margin-top: 50px;
+          padding-right: 50px;
+        "
+      >
+        <button
+          mat-stroked-button
+          style="background-color: white"
+          (click)="closeMessage()"
+        >
+          Ok
+        </button>
+      </div>
+    </div>
+  </div>
+  }
+</section>

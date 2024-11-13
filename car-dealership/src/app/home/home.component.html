@@ -1,0 +1,70 @@
+<main class="mainContainer">
+  <app-loader [isLoading]="appStore.isLoading()" />
+  <div class="imgText">
+    <div class="img-container">
+      <img [src]="images[item()]" class="image" />
+      <button
+        class="btn"
+        mat-icon-button
+        aria-label="Example icon button with a vertical three dot icon"
+        (click)="loopImages('next')"
+      >
+        <mat-icon>arrow_forward_ios</mat-icon>
+      </button>
+      <button
+        class="btn2"
+        mat-icon-button
+        aria-label="Example icon button with a vertical three dot icon"
+        (click)="loopImages('previous')"
+      >
+        <mat-icon>arrow_back_ios</mat-icon>
+      </button>
+      <div class="txt">
+        <h6 class="title">Welcome to Lethal garage!</h6>
+        <p>
+          The best place for vehicle advertising. Register today for free and
+          advertise your vehicle.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="filters">
+    <mat-accordion>
+      <mat-expansion-panel
+        (opened)="handleExpansion(true)"
+        (closed)="handleExpansion(false)"
+      >
+        <mat-expansion-panel-header>
+          <mat-panel-description> Find your dream car </mat-panel-description>
+        </mat-expansion-panel-header>
+        <app-filters
+          [selectBrand]="appStore.brand()"
+          [selectSortBy]="appStore.sortBy()"
+          [selectSortDirection]="appStore.sortDirection()"
+          [chooseCarsYear]="appStore.minYear()"
+          [carsYears]="carsYears"
+          (updateSelectBrand)="appStore.setBrand($event)"
+          (updateSortBy)="appStore.setSortBy($event)"
+          (updateSortDirection)="appStore.setSortDirection($event.value)"
+          (getCarsYear)="appStore.setMinYear($event.value)"
+        />
+      </mat-expansion-panel>
+    </mat-accordion>
+
+    <app-search-cars
+      [searchTerm]="appStore.searchTerm()"
+      (updateSearchTerm)="appStore.setSearchTerm($event.target.value)"
+    />
+  </div>
+  <app-cars [cars]="appStore.cars()" />
+  <mat-paginator
+    [length]="appStore.total()"
+    [pageSize]="appStore.pageSize()"
+    [pageSizeOptions]="[4, 12, 24, 40]"
+    aria-label="Select page"
+    (page)="
+      appStore.setPageSize($event.pageSize); appStore.setPage($event.pageIndex)
+    "
+  />
+</main>

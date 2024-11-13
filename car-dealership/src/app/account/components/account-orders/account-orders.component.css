@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details img{
+    width: 100%;
+}
+.carRow:hover{
+    background-color: #1469C0;
+    color: white;
+}
+.tableContainer{
+    width: 100%;
+}
