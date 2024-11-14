@@ -1,0 +1,414 @@
+<main>
+  <svg preserveAspectRatio="xMidYMid slice" viewBox="10 10 80 80">
+    <defs>
+      <style>
+        @keyframes rotate {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+        .out-top {
+          animation: rotate 20s linear infinite;
+          transform-origin: 10px 25px;
+        }
+        .in-top {
+          animation: rotate 10s linear infinite;
+          transform-origin: 10px 25px;
+        }
+        .out-bottom {
+          animation: rotate 25s linear infinite;
+          transform-origin: 84px 93px;
+        }
+        .in-bottom {
+          animation: rotate 15s linear infinite;
+          transform-origin: 84px 93px;
+        }
+      </style>
+    </defs>
+    <path
+      fill="#1469C0"
+      class="out-top"
+      d="M37-5C25.1-14.7,5.7-19.1-9.2-10-28.5,1.8-32.7,31.1-19.8,49c15.5,21.5,52.6,22,67.2,2.3C59.4,35,53.7,8.5,37-5Z"
+    />
+    <path
+      fill="#5986b2"
+      class="in-top"
+      d="M20.6,4.1C11.6,1.5-1.9,2.5-8,11.2-16.3,23.1-8.2,45.6,7.4,50S42.1,38.9,41,24.5C40.2,14.1,29.4,6.6,20.6,4.1Z"
+    />
+    <path
+      fill="#5986b2"
+      class="out-bottom"
+      d="M105.9,48.6c-12.4-8.2-29.3-4.8-39.4.8-23.4,12.8-37.7,51.9-19.1,74.1s63.9,15.3,76-5.6c7.6-13.3,1.8-31.1-2.3-43.8C117.6,63.3,114.7,54.3,105.9,48.6Z"
+    />
+    <path
+      fill="#00f5d4"
+      class="in-bottom"
+      d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z"
+    />
+  </svg>
+  <mat-stepper linear #stepper class="stepper">
+    <mat-step [stepControl]="firstFormGroup" [editable]="isEditable">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>Step 1</ng-template>
+        <div class="row">
+          <section>
+            <div class="column">
+              <mat-form-field class="example-full-width">
+                <mat-label>Choose brand:</mat-label>
+                <mat-select formControlName="brand">
+                  @for (brand of possibleBrands; track brand) {
+                  <mat-option [value]="brand">{{ brand }}</mat-option>
+                  }
+                </mat-select>
+                @if (getErrorMessage('brand', firstFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("brand", firstFormGroup)
+                }}</mat-error>
+                }
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <mat-label>Choose car type:</mat-label>
+                <mat-select formControlName="carType">
+                  @for (type of possibleCarTypes; track type) {
+                  <mat-option [value]="type">{{ type }}</mat-option>
+                  }
+                </mat-select>
+                @if (getErrorMessage('carType', firstFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("carType", firstFormGroup)
+                }}</mat-error>
+                }
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <mat-label>Model:</mat-label>
+                <input type="text" matInput formControlName="model" />
+                @if (getErrorMessage('model', firstFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("model", firstFormGroup)
+                }}</mat-error>
+                }@if(firstFormGroup.get('model')?.hasError('minlength')){
+                <mat-error>Please enter more than 2 chars.</mat-error>
+                }
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <mat-label>Year:</mat-label>
+                <input
+                  type="number"
+                  matInput
+                  formControlName="year"
+                  min="1950"
+                  max="2024"
+                />
+                @if (getErrorMessage('year', firstFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("year", firstFormGroup)
+                }}</mat-error>
+                }
+              </mat-form-field>
+            </div>
+          </section>
+
+          <section>
+            <div class="column">
+              <mat-form-field class="example-full-width">
+                <mat-label>Engine power:</mat-label>
+                <input
+                  type="number"
+                  matInput
+                  formControlName="enginePower"
+                  min="50"
+                  max="1000"
+                />
+                @if (getErrorMessage('enginePower', firstFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("enginePower", firstFormGroup)
+                }}</mat-error>
+                }@if(firstFormGroup.get('enginePower')?.hasError('maxlength')){
+                <mat-error>You have entered more than 4 chars.</mat-error>
+                }@if(firstFormGroup.get('enginePower')?.hasError('minlength')){
+                <mat-error>Smallest engin power is 50ph.</mat-error>
+                }
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <mat-label>Seats:</mat-label>
+                <input
+                  type="number"
+                  matInput
+                  formControlName="seats"
+                  min="1"
+                  max="80"
+                />
+                @if (getErrorMessage('seats', firstFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("seats", firstFormGroup)
+                }}</mat-error>
+                }
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <mat-label>Doors:</mat-label>
+                <input
+                  type="number"
+                  matInput
+                  formControlName="doors"
+                  min="1"
+                  max="10"
+                />
+                @if (getErrorMessage('doors', firstFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("doors", firstFormGroup)
+                }}</mat-error>
+                }
+              </mat-form-field>
+              <mat-form-field class="example-full-width">
+                <mat-label>Color:</mat-label>
+                <input type="text" matInput formControlName="color" />
+                @if (getErrorMessage('color', firstFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("color", firstFormGroup)
+                }}</mat-error>
+                }@if(firstFormGroup.get('color')?.hasError('minlength')){
+                <mat-error>Please enter more than 2 chars.</mat-error>
+                }
+              </mat-form-field>
+            </div>
+          </section>
+        </div>
+
+        <div>
+          <button mat-flat-button matStepperNext type="button">Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="secondFormGroup" [editable]="isEditable">
+      <form [formGroup]="secondFormGroup">
+        <ng-template matStepLabel>Step 2</ng-template>
+        <div class="row">
+          <section>
+            <div class="column">
+              <mat-form-field class="example-full-width">
+                <mat-label>Transmission:</mat-label>
+                <mat-select formControlName="transmission">
+                  @for (type of possibleTransmission; track type) {
+                  <mat-option [value]="type">{{ type }}</mat-option>
+                  }
+                </mat-select>
+                @if (getErrorMessage('transmission', secondFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("transmission", secondFormGroup)
+                }}</mat-error>
+                }
+              </mat-form-field>
+
+              <mat-form-field class="example-full-width">
+                <mat-label>Choose fuel type:</mat-label>
+                <mat-select formControlName="fuelType">
+                  @for (fuel of possibleFuelTypes; track fuel) {
+                  <mat-option [value]="fuel">{{ fuel }}</mat-option>
+                  }
+                </mat-select>
+                @if (getErrorMessage('fuelType', secondFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("fuelType", secondFormGroup)
+                }}</mat-error>
+                }
+              </mat-form-field>
+
+              <mat-form-field class="example-full-width">
+                <mat-label>Car status: </mat-label>
+                <mat-select formControlName="isNew">
+                  <mat-option value="new">New</mat-option>
+                  <mat-option value="old">Used</mat-option>
+                </mat-select>
+                @if (getErrorMessage('isNew', secondFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("isNew", secondFormGroup)
+                }}</mat-error>
+                }
+              </mat-form-field>
+
+              <mat-form-field class="example-full-width">
+                <mat-label>Distance:</mat-label>
+                <input type="text" matInput formControlName="distance" />
+                @if (getErrorMessage('distance', secondFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("distance", secondFormGroup)
+                }}</mat-error>
+                }@if(secondFormGroup.get('distance')?.hasError('maxlength')){
+                <mat-error>You have entered more than 6 chars.</mat-error>
+                }
+              </mat-form-field>
+            </div>
+          </section>
+
+          <section>
+            <div class="column">
+              <mat-form-field floatLabel="always" class="example-full-width">
+                <mat-label>Price</mat-label>
+                <input
+                  matInput
+                  type="number"
+                  class="example-right-align"
+                  placeholder="0"
+                  formControlName="price"
+                />
+                <span matTextPrefix>$&nbsp;</span>
+                <span matTextSuffix>.00</span>
+                @if (getErrorMessage('price', secondFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("price", secondFormGroup)
+                }}</mat-error>
+                }
+              </mat-form-field>
+              <div class="example-full-width">
+                <table style="width: 100%" cellspacing="10">
+                  <tr
+                    style="
+                      width: 100%;
+                      display: flex;
+                      justify-content: space-between;
+                    "
+                  >
+                    <td style="width: 100%">
+                      <mat-form-field class="example-full-width">
+                        <mat-label>City</mat-label>
+                        <input
+                          matInput
+                          placeholder="Ex. San Francisco"
+                          formControlName="city"
+                        />
+                        @if (getErrorMessage('city', secondFormGroup)) {
+                        <mat-error>{{
+                          getErrorMessage("city", secondFormGroup)
+                        }}</mat-error>
+                        }@if(secondFormGroup.get('city')?.hasError('minlength')){
+                        <mat-error>Please enter more than 2 chars.</mat-error>
+                        }
+                      </mat-form-field>
+                    </td>
+                    <td style="width: 100%">
+                      <mat-form-field class="example-full-width">
+                        <mat-label>State</mat-label>
+                        <input
+                          matInput
+                          placeholder="Ex. California"
+                          formControlName="state"
+                        />
+                        @if (getErrorMessage('state', secondFormGroup)) {
+                        <mat-error>{{
+                          getErrorMessage("state", secondFormGroup)
+                        }}</mat-error>
+                        }@if(secondFormGroup.get('state')?.hasError('minlength')){
+                        <mat-error>Please enter more than 2 chars.</mat-error>
+                        }
+                      </mat-form-field>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+              <!-- <mat-form-field class="example-full-width">
+                <mat-label>Location:</mat-label>
+                <input type="text" matInput formControlName="location" />
+                @if (getErrorMessage('location', secondFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("location", secondFormGroup)
+                }}</mat-error>
+                }@if(secondFormGroup.get('location')?.hasError('minlength')){
+                <mat-error>Please enter more than 2 chars.</mat-error>
+                }
+              </mat-form-field> -->
+
+              <mat-form-field class="example-full-width">
+                <mat-label>Description:</mat-label>
+                <textarea
+                  matInput
+                  placeholder="Ex. It makes me feel..."
+                  formControlName="description"
+                ></textarea>
+                <mat-hint align="end" style="color: white"
+                  >{{
+                    this.secondFormGroup.get("description")?.value?.length
+                  }}/250</mat-hint
+                >
+                @if (getErrorMessage('description', secondFormGroup)) {
+                <mat-error>{{
+                  getErrorMessage("description", secondFormGroup)
+                }}</mat-error>
+                }@if(secondFormGroup.get('description')?.hasError('maxlength')){
+                <mat-error>You have entered more then 250 chars.</mat-error>
+                }
+              </mat-form-field>
+
+              <div formArrayName="image" class="example-full-width">
+                @for (item of getImageControl(); track $index) {
+
+                <mat-form-field style="width: 100%">
+                  <mat-label>Image:</mat-label>
+                  <input type="text" matInput [formControlName]="$index" />
+                  <button
+                    matSuffix
+                    mat-icon-button
+                    aria-label="Clear"
+                    type="button"
+                    (click)="deleteControlImage($index)"
+                    [ngClass]="{
+                      hide: secondFormGroup.get('image')?.get([$index])?.value
+                    }"
+                  >
+                    <mat-icon>close</mat-icon>
+                  </button>
+                  @if
+                  (secondFormGroup.get('image')?.get([$index])?.hasError('required'))
+                  {
+                  <mat-error
+                    >Field for image is <strong>required</strong>.</mat-error
+                  >
+                  }@if(secondFormGroup.get('image')?.get([$index])?.hasError('pattern')){
+                  <mat-error>Please enter a valid value.</mat-error>
+                  }
+                </mat-form-field>
+                }
+              </div>
+              <button
+                type="button"
+                mat-flat-button
+                (click)="onAddImage()"
+                [disabled]="checkImages()"
+              >
+                Add images
+              </button>
+            </div>
+          </section>
+        </div>
+
+        <div>
+          <button
+            mat-flat-button
+            matStepperNext
+            (click)="create()"
+            [disabled]="secondFormGroup.invalid"
+          >
+            Next
+          </button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step>
+      <ng-template matStepLabel>Done</ng-template>
+
+      <div class="done">
+        <h6>Thank you for your trust!</h6>
+        <p>Your announcement is successfully added.</p>
+        <div class="row">
+          <a mat-flat-button routerLink="">Back to home page</a>
+          <button mat-flat-button type="button" (click)="stepper.reset()">
+            Add other
+          </button>
+        </div>
+      </div>
+    </mat-step>
+  </mat-stepper>
+</main>
