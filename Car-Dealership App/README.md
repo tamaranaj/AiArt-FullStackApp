@@ -37,6 +37,7 @@ To manually set the userIds (must be existing users), you can add the query para
 
 ## Some images
 
+<div style="display:grid; grid-template-columns: 1fr 1fr; gap: 10px">
 <img src="images/1.png" width="400" />
 <img src="images/2.png" width="400" />
 <img src="images/3.png" width="400" />
@@ -46,3 +47,4 @@ To manually set the userIds (must be existing users), you can add the query para
 <img src="images/7.png" width="400" />
 <img src="images/8.png" width="400" />
 <img src="images/9.png" width="400" />
+</div>

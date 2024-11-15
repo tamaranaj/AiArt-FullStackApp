@@ -1,0 +1,1763 @@
+[
+  {
+    "id": "62",
+    "description": "Alice in Wonderland by the black dude",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 55,
+    "stock": true,
+    "imageUrl": "images/62.jpg"
+  },
+  {
+    "id": "63",
+    "description": "Spring-serenity",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/63.jpg"
+  },
+  {
+    "id": "80",
+    "description": "Sandy desert",
+    "category": "Landscapes",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 45,
+    "stock": true,
+    "imageUrl": "images/80.jpg"
+  },
+  {
+    "id": "107",
+    "description": "Into the unknown",
+    "category": "Abstract",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/107.jpeg"
+  },
+
+  {
+    "id": "94",
+    "description": "Blood moon",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 15,
+    "stock": true,
+    "imageUrl": "images/94.jpg"
+  },
+
+  {
+    "id": "81",
+    "description": "Nature can speak",
+    "category": "Landscapes",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 55,
+    "stock": true,
+    "imageUrl": "images/81.jpg"
+  },
+  {
+    "id": "64",
+    "description": "Mornings like these",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/64.jpg"
+  },
+  {
+    "id": "65",
+    "description": "Enjoying the autumn weather on the beach",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 55,
+    "stock": true,
+    "imageUrl": "images/65.jpg"
+  },
+  {
+    "id": "74",
+    "description": "Little child",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/74.jpg"
+  },
+  {
+    "id": "75",
+    "description": "Little child is getting dried caught by the rain",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/75.jpg"
+  },
+  {
+    "id": "95",
+    "description": "Rotation of stars",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 45,
+    "stock": true,
+    "imageUrl": "images/95.jpg"
+  },
+
+  {
+    "id": "119",
+    "description": "Fall at the lake",
+    "category": "Canvas",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/119.jpg"
+  },
+  {
+    "id": "82",
+    "description": "The lakes are the eyes of the mountains",
+    "category": "Landscapes",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 45,
+    "stock": true,
+    "imageUrl": "images/82.jpg"
+  },
+  {
+    "id": "83",
+    "description": "Sky view",
+    "category": "Landscapes",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/83.jpg"
+  },
+  {
+    "id": "116",
+    "description": "Mashing of flowers",
+    "category": "Canvas",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/116.jpg"
+  },
+  {
+    "id": "108",
+    "description": "Suns watery grave",
+    "category": "Abstract",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/108.jpg"
+  },
+
+  {
+    "id": "19",
+    "description": "Hot air balloons ride over mountains",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 20,
+    "stock": true,
+    "imageUrl": "images/19.jpg"
+  },
+  {
+    "id": "20",
+    "description": "Woman in black",
+    "category": "Art & Designs",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 20,
+    "stock": true,
+    "imageUrl": "images/20.png"
+  },
+  {
+    "id": "21",
+    "description": "Old castle",
+    "category": "Art & Designs",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 20,
+    "stock": true,
+    "imageUrl": "images/21.png"
+  },
+  {
+    "id": "22",
+    "description": "Artistic live in flat",
+    "category": "Art & Designs",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/22.png"
+  },
+  {
+    "id": "96",
+    "description": "Watching the infinite sky",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/96.jpg"
+  },
+  {
+    "id": "117",
+    "description": "Farmers home",
+    "category": "Canvas",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/117.jpeg"
+  },
+  {
+    "id": "118",
+    "description": "Shiny blue bird who fans out his large colorful iridescent tail feathers",
+    "category": "Canvas",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 45,
+    "stock": true,
+    "imageUrl": "images/118.jpg"
+  },
+  {
+    "id": "120",
+    "description": "Waterfalls",
+    "category": "Canvas",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/120.jpg"
+  },
+  {
+    "id": "115",
+    "description": "Cherry blossom",
+    "category": "Canvas",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/115.jpg"
+  },
+  {
+    "id": "109",
+
+    "description": "The hanging tree",
+    "category": "Abstract",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/109.jpg"
+  },
+
+  {
+    "id": "6",
+    "description": "Pure beauty of african girl",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 20,
+    "stock": true,
+    "imageUrl": "images/6.png"
+  },
+  {
+    "id": "1",
+    "description": "Drama in acrylic style",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/1.jpg"
+  },
+  {
+    "id": "2",
+    "description": "Tree of human rights",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 20,
+    "stock": true,
+    "imageUrl": "images/2.jpg"
+  },
+  {
+    "id": "3",
+    "description": "Caring woman with oranges",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/3.jpg"
+  },
+  {
+    "id": "4",
+    "description": "Dinner time in Japan",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/4.jpg"
+  },
+  {
+    "id": "5",
+    "description": "Traditional african women with jewelry",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/5.jpg"
+  },
+  {
+    "id": "0",
+    "description": "Autumn, nature-serenity",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/0.jpg"
+  },
+  {
+    "id": "30",
+
+    "description": "Nature and sunset",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/30.jpg"
+  },
+  {
+    "id": "31",
+
+    "description": "Portrait of man, night, stars",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 40,
+    "stock": true,
+    "imageUrl": "images/31.jpg"
+  },
+  {
+    "id": "32",
+
+    "description": "Portrait of man with hat",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 40,
+    "stock": true,
+    "imageUrl": "images/32.jpg"
+  },
+  {
+    "id": "7",
+    "description": "Black cat watching sea and sunset",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 8,
+    "stock": false,
+    "imageUrl": "images/7.jpg"
+  },
+  {
+    "id": "8",
+    "description": "Black cat, siting on shelf",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 8,
+    "stock": true,
+    "imageUrl": "images/8.jpg"
+  },
+  {
+    "id": "9",
+    "description": "Red hair girl with blue eyes",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/9.png"
+  },
+  {
+    "id": "10",
+    "description": "Abstract colorful acryle",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/10.png"
+  },
+  {
+    "id": "11",
+    "description": "Acrylic portrait of girl",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/11.jpg"
+  },
+  {
+    "id": "12",
+    "description": "Colorful portrait",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 20,
+    "stock": true,
+    "imageUrl": "images/12.png"
+  },
+  {
+    "id": "13",
+    "description": "A boy with red hair and freckles",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/13.jpg"
+  },
+  {
+    "id": "14",
+    "description": "Parrots love on acryle",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": false,
+    "imageUrl": "images/14.jpg"
+  },
+  {
+    "id": "15",
+    "description": "Eagle before landing",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 20,
+    "stock": false,
+    "imageUrl": "images/15.jpg"
+  },
+  {
+    "id": "16",
+
+    "description": "Storks in water",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 10,
+    "stock": false,
+    "imageUrl": "images/16.png"
+  },
+  {
+    "id": "17",
+
+    "description": "Cock in acrylic style",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 10,
+    "stock": false,
+    "imageUrl": "images/17.jpg"
+  },
+  {
+    "id": "18",
+
+    "description": "Abstract colors-blue, yellow, brown",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 10,
+    "stock": true,
+    "imageUrl": "images/18.jpg"
+  },
+
+  {
+    "id": "23",
+
+    "description": "Abstract game with colors, white, blue and orange",
+    "category": "Art & Designs",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/23.jpg"
+  },
+  {
+    "id": "24",
+
+    "description": "Flat design, black and white",
+    "category": "Art & Designs",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/24.jpg"
+  },
+  {
+    "id": "25",
+
+    "description": "Corridor design, black and white ",
+    "category": "Art & Designs",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/25.jpg"
+  },
+  {
+    "id": "86",
+
+    "description": "Winter in the mountains",
+    "category": "Landscapes",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/86.jpg"
+  },
+  {
+    "id": "87",
+
+    "description": "Beautiful night sky",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 65,
+    "stock": true,
+    "imageUrl": "images/87.jpg"
+  },
+  {
+    "id": "56",
+
+    "description": "Quay on the coast, with benches, buildings and street lighting ",
+    "category": "Black & White",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 20,
+    "stock": true,
+    "imageUrl": "images/56.jpg"
+  },
+  {
+    "id": "57",
+
+    "description": "Art illustration of a girl with mask",
+    "category": "Black & White",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/57.jpg"
+  },
+  {
+    "id": "58",
+
+    "description": "A beautiful woman captured in the moment",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/58.jpg"
+  },
+  {
+    "id": "26",
+
+    "description": "Chilling bench on mountain, nature in the mountains",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/26.jpg"
+  },
+  {
+    "id": "28",
+
+    "description": "Wild squirrels on the tree",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/28.jpg"
+  },
+  {
+    "id": "101",
+
+    "description": "Beautiful sight from the lake",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 55,
+    "stock": true,
+    "imageUrl": "images/101.jpg"
+  },
+
+  {
+    "id": "29",
+
+    "description": "Wild horses running",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 15,
+    "stock": true,
+    "imageUrl": "images/29.jpg"
+  },
+
+  {
+    "id": "33",
+
+    "description": "Sunflowers beauty",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/33.jpg"
+  },
+  {
+    "id": "34",
+
+    "description": "Abstract girls, wearing plate with fruits on their head",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/34.jpg"
+  },
+  {
+    "id": "102",
+
+    "description": "Three faces abstract image",
+    "category": "Abstract",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/102.jpg"
+  },
+  {
+    "id": "103",
+
+    "description": "Abstract lines",
+    "category": "Abstract",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/103.png"
+  },
+
+  {
+    "id": "35",
+
+    "description": "Coffee place with flowers",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 15,
+    "stock": true,
+    "imageUrl": "images/35.jpg"
+  },
+  {
+    "id": "36",
+
+    "description": "Two beautiful brown horses",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/36.jpg"
+  },
+  {
+    "id": "37",
+
+    "description": "Wild squirrels on the tree",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/37.jpg"
+  },
+  {
+    "id": "104",
+
+    "description": "Song and dance",
+    "category": "Abstract",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 20,
+    "stock": true,
+    "imageUrl": "images/104.jpg"
+  },
+
+  {
+    "id": "38",
+
+    "description": "Eye acryle contours",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 40,
+    "stock": true,
+    "imageUrl": "images/38.jpg"
+  },
+  {
+    "id": "39",
+
+    "description": "Coffee place in busy city",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 20,
+    "stock": true,
+    "imageUrl": "images/39.jpeg"
+  },
+  {
+    "id": "105",
+
+    "description": "Abstract water color",
+    "category": "Abstract",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 20,
+    "stock": true,
+    "imageUrl": "images/105.jpg"
+  },
+  {
+    "id": "106",
+
+    "description": "Cloudfall",
+    "category": "Abstract",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/106.jpg"
+  },
+
+  {
+    "id": "110",
+
+    "description": "Blue trip",
+    "category": "Abstract",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/110.jpg"
+  },
+  {
+    "id": "40",
+
+    "description": "Abstract colorful acryle",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 8,
+    "stock": true,
+    "imageUrl": "images/40.jpg"
+  },
+  {
+    "id": "97",
+
+    "description": "Watching the stars fall from the caves",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 45,
+    "stock": true,
+    "imageUrl": "images/97.jpg"
+  },
+  {
+    "id": "98",
+
+    "description": "Enjoying and taking pictures from the night sky by the lake",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/98.jpg"
+  },
+  {
+    "id": "99",
+
+    "description": "Photo shooting the winter night sky",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 55,
+    "stock": true,
+    "imageUrl": "images/99.jpg"
+  },
+  {
+    "id": "100",
+
+    "description": "Beautiful picture from a house in the mountains in the cold winter nights",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 65,
+    "stock": true,
+    "imageUrl": "images/100.jpg"
+  },
+
+  {
+    "id": "41",
+
+    "description": "Acrilyc shades of blue",
+    "category": "Acrylic",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 8,
+    "stock": true,
+    "imageUrl": "images/41.jpg"
+  },
+  {
+    "id": "42",
+
+    "description": "Building design with glass that reflects the sky ",
+    "category": "Art & Designs",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 15,
+    "stock": true,
+    "imageUrl": "images/42.jpg"
+  },
+  {
+    "id": "43",
+
+    "description": "Vintage car design, black and white",
+    "category": "Art & Designs",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 10,
+    "stock": true,
+    "imageUrl": "images/43avif.avif"
+  },
+  {
+    "id": "44",
+    "description": "Rooftop design, in orange color",
+    "category": "Art & Designs",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 10,
+    "stock": true,
+    "imageUrl": "images/44.webp"
+  },
+  {
+    "id": "45",
+    "description": "Abstract leafs, in different colors",
+    "category": "Art & Designs",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 8,
+    "stock": true,
+    "imageUrl": "images/45.webp"
+  },
+  {
+    "id": "46",
+    "description": "Design of city in 1900 somewhere in Europe",
+    "category": "Art & Designs",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/46.png"
+  },
+  {
+    "id": "47",
+    "description": "Ruins with stairs, moss and tree",
+    "category": "Art & Designs",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/47.jpg"
+  },
+  {
+    "id": "48",
+    "description": "Hall design in a building with glass",
+    "category": "Art & Designs",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/48.jpg"
+  },
+  {
+    "id": "49",
+    "description": "Five different flowers",
+    "category": "Black & White",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/49.jpg"
+  },
+  {
+    "id": "50",
+    "description": "Black cat with beautiful big eyes",
+    "category": "Black & White",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 40,
+    "stock": true,
+    "imageUrl": "images/50.jpg"
+  },
+  {
+    "id": "51",
+    "description": "Somewhere in China, nature, river and traditional house",
+    "category": "Black & White",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/51.jpg"
+  },
+  {
+    "id": "52",
+    "description": "Outlines of a bird in flight",
+    "category": "Black & White",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/52.jpg"
+  },
+  {
+    "id": "53",
+    "description": "Big and small elephants in river",
+    "category": "Black & White",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/53.jpg"
+  },
+  {
+    "id": "54",
+    "description": "Big and small elephants in river",
+    "category": "Black & White",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/54.jpg"
+  },
+  {
+    "id": "55",
+    "description": "Art illustration of a man and a skeleton",
+    "category": "Black & White",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/55.jpg"
+  },
+
+  {
+    "id": "59",
+    "description": "Man captured in the moment",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/59.jpg"
+  },
+  {
+    "id": "60",
+    "description": "A beautiful woman with pink background",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/60.jpg"
+  },
+  {
+    "id": "61",
+    "description": "Middle aged man",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 45,
+    "stock": true,
+    "imageUrl": "images/61.jpg"
+  },
+
+  {
+    "id": "66",
+    "description": "Beautiful black woman captured in the moment",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/66.jpg"
+  },
+  {
+    "id": "111",
+    "description": "Descending",
+    "category": "Abstract",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/111.jpg"
+  },
+  {
+    "id": "112",
+    "description": "Mountains",
+    "category": "Canvas",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/112.jpg"
+  },
+  {
+    "id": "113",
+    "description": "Lotus",
+    "category": "Canvas",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/113.jpeg"
+  },
+  {
+    "id": "114",
+    "description": "Wave",
+    "category": "Canvas",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/114.jpg"
+  },
+  {
+    "id": "67",
+    "description": "Mysterious man",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/67.jpg"
+  },
+  {
+    "id": "68",
+    "description": "Pure happiness",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 65,
+    "stock": true,
+    "imageUrl": "images/68.jpg"
+  },
+  {
+    "id": "69",
+    "description": "Medieval picture of a woman with beautiful green eyes",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/69.jpg"
+  },
+  {
+    "id": "70",
+    "description": "Rehearsed captured moment from the movie: Leon",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/70.jpg"
+  },
+  {
+    "id": "71",
+    "description": "Picture with green details",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 65,
+    "stock": true,
+    "imageUrl": "images/71.jpg"
+  },
+  {
+    "id": "72",
+    "description": "Green is not just a color, but a story",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/72.jpg"
+  },
+  {
+    "id": "73",
+    "description": "Little girl enjoying the fruits of life",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/73.jpg"
+  },
+
+  {
+    "id": "76",
+    "description": "Happy child",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/76.jpg"
+  },
+  {
+    "id": "77",
+    "description": "Hard-working child",
+    "category": "Portraits",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 45,
+    "stock": true,
+    "imageUrl": "images/77.jpg"
+  },
+  {
+    "id": "78",
+    "description": "Beautiful island",
+    "category": "Landscapes",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 55,
+    "stock": true,
+    "imageUrl": "images/78.jpg"
+  },
+  {
+    "id": "79",
+    "description": "Quit and peaceful in the early morning",
+    "category": "Landscapes",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 45,
+    "stock": true,
+    "imageUrl": "images/79.jpg"
+  },
+
+  {
+    "id": "84",
+    "description": "Sky view of the mountains",
+    "category": "Landscapes",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 45,
+    "stock": true,
+    "imageUrl": "images/84.jpg"
+  },
+  {
+    "id": "85",
+    "description": "Beautiful view of the sun from the canyons",
+    "category": "Landscapes",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 65,
+    "stock": true,
+    "imageUrl": "images/85.jpg"
+  },
+
+  {
+    "id": "88",
+    "description": "Reaching the stars",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 65,
+    "stock": true,
+    "imageUrl": "images/88.jpg"
+  },
+  {
+    "id": "89",
+    "description": "Sky view from the mountains",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 55,
+    "stock": true,
+    "imageUrl": "images/89.jpg"
+  },
+  {
+    "id": "90",
+    "description": "Watching the stars fall from the top of the mountains",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 25,
+    "stock": true,
+    "imageUrl": "images/90.jpg"
+  },
+  {
+    "id": "91",
+    "description": "Beautiful night sky",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/91.jpg"
+  },
+  {
+    "id": "92",
+    "description": "Beautiful view of the sky from the top of the mountains",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/92.jpg"
+  },
+  {
+    "id": "93",
+    "description": "Reflection of the stars in the lake",
+    "category": "Astrophoto",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/93.jpg"
+  },
+
+  {
+    "id": "121",
+    "description": "Mountain view manor",
+    "category": "Canvas",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 45,
+    "stock": true,
+    "imageUrl": "images/121.jpg"
+  },
+  {
+    "id": "122",
+    "description": "Geisha",
+    "category": "Charcoal & Chalk & Pastel",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 45,
+    "stock": true,
+    "imageUrl": "images/122.jpg"
+  },
+  {
+    "id": "123",
+    "description": "Zebra",
+    "category": "Charcoal & Chalk & Pastel",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/123.jpg"
+  },
+  {
+    "id": "124",
+    "description": "I am Batman",
+    "category": "Charcoal & Chalk & Pastel",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 45,
+    "stock": true,
+    "imageUrl": "images/124.jpg"
+  },
+  {
+    "id": "125",
+    "description": "Blood blood butterflies",
+    "category": "Charcoal & Chalk & Pastel",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 40,
+    "stock": true,
+    "imageUrl": "images/125.jpg"
+  },
+  {
+    "id": "126",
+    "description": "Herd of elephants",
+    "category": "Charcoal & Chalk & Pastel",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 40,
+    "stock": true,
+    "imageUrl": "images/126.jpg"
+  },
+  {
+    "id": "127",
+    "description": "Final practice",
+    "category": "Charcoal & Chalk & Pastel",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 40,
+    "stock": true,
+    "imageUrl": "images/127.jpg"
+  },
+  {
+    "id": "128",
+    "description": "Enthusiastic walk",
+    "category": "Charcoal & Chalk & Pastel",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 33,
+    "stock": true,
+    "imageUrl": "images/128.jpg"
+  },
+  {
+    "id": "129",
+    "description": "Final practice II",
+    "category": "Charcoal & Chalk & Pastel",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 35,
+    "stock": true,
+    "imageUrl": "images/129.jpg"
+  },
+  {
+    "id": "130",
+    "description": "Pastel flower field",
+    "category": "Charcoal & Chalk & Pastel",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 30,
+    "stock": true,
+    "imageUrl": "images/130.jpeg"
+  },
+  {
+    "id": "131",
+    "description": "In the arms of the mother",
+    "category": "Charcoal & Chalk & Pastel",
+    "artist": {
+      "userName": "AIArt",
+      "userID": "AIArt",
+      "email": "aiArt@mail.com"
+    },
+    "price": 45,
+    "stock": true,
+    "imageUrl": "images/131.jpg"
+  }
+]
