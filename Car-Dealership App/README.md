@@ -38,13 +38,13 @@ To manually set the userIds (must be existing users), you can add the query para
 ## Some images
 
 <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 10px">
-<img src="images/1.png" width="400" />
-<img src="images/2.png" width="400" />
-<img src="images/3.png" width="400" />
-<img src="images/4.png" width="400" />
-<img src="images/5.png" width="400" />
-<img src="images/6.png" width="400" />
-<img src="images/7.png" width="400" />
-<img src="images/8.png" width="400" />
-<img src="images/9.png" width="400" />
+<img src="images/1.png" />
+<img src="images/2.png" />
+<img src="images/3.png"  />
+<img src="images/4.png"  />
+<img src="images/5.png"  />
+<img src="images/6.png"  />
+<img src="images/7.png"  />
+<img src="images/8.png"  />
+<img src="images/9.png" />
 </div>
