@@ -1,6 +1,9 @@
-# Car Dealership Application
+## Car Dealership Application
 
-The application is used for advertising and buying cars. This application distinguishes two types of users, guests and registered users. Guests can only view cars, while registered users can advertise or buy a vehicle.
+This application facilitates the buying and selling of cars. It supports two types of users: **guests** and **registered users**.
+
+- **Guests**: Can only view available cars.
+- **Registered users**: Can sell or purchase vehicles.
 
 ## How to run the server
 
@@ -35,16 +38,18 @@ To manually set the userIds (must be existing users), you can add the query para
 2. npm start
 3. Open link in browser
 
-## Some images
-
 <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 10px">
+<img src="images/0.png" width="500" />
+<img src="images/10.png" width="500" />
+<img src="images/11.png" width="500" />
+<img src="images/12.png" width="500" />
 <img src="images/1.png" width="500" />
-<img src="images/2.png" width="500" />
+<img src="images/8.png" width="500" />
 <img src="images/3.png" width="500" />
 <img src="images/4.png" width="500" />
 <img src="images/5.png" width="500" />
 <img src="images/6.png" width="500" />
 <img src="images/7.png" width="500" />
-<img src="images/8.png" width="500" />
 <img src="images/9.png" width="500" />
+<img src="images/2.png" width="500" />
 </div>

@@ -1,15 +1,34 @@
+.filtersCont{
+    width: 100%;
+   display: flex;
+   align-items: center;
+}
+
 .filters{
+    
+    top: 40%;
+    left: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    color: white;
+    margin: 30px;
     
-    
-
 }
-.filterCont{
+
+.radio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.radioBtn{
     display: flex;
     justify-content: center;
-    gap: 60px;
+    align-items: center;
+}
+.radioValue{
+    color: white;
 }

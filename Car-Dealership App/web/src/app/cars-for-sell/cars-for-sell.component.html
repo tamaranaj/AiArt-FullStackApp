@@ -1,0 +1,63 @@
+<main>
+  <div class="test">
+    <app-filters
+      [selectBrand]="appStore.brand()"
+      [selectSortBy]="appStore.sortBy()"
+      [selectSortDirection]="appStore.sortDirection()"
+      [chooseCarsYear]="appStore.minYear()"
+      [carsYears]="carsYears"
+      (updateSelectBrand)="appStore.setBrand($event)"
+      (updateSortBy)="appStore.setSortBy($event)"
+      (updateSortDirection)="appStore.setSortDirection($event.value)"
+      (getCarsYear)="appStore.setMinYear($event.value)"
+    />
+
+    <section class="adv">
+      <div class="advTxt">
+        <h6>Ready for a new ride?</h6>
+        <h6>Explore the latest vehicles</h6>
+
+        <ul>
+          <li>View latest models</li>
+          <li>Discover best deals</li>
+        </ul>
+      </div>
+
+      <img src="binoculars.png" alt="" />
+    </section>
+  </div>
+
+  <div class="testing">
+    <div class="filters">
+      <div class="imgCont">
+        <div class="sell">
+          <h2>You can sell your car right here</h2>
+          <button mat-flat-button (click)="navigateToCreate()">
+            GET STARTED
+          </button>
+        </div>
+      </div>
+
+      <app-search-cars
+        [searchTerm]="appStore.searchTerm()"
+        (updateSearchTerm)="appStore.setSearchTerm($event.target.value)"
+      />
+      <app-loader [isLoading]="appStore.isLoading()" />
+    </div>
+    <div class="carsCont">
+      <app-cars [cars]="appStore.cars()" />
+    </div>
+
+    <mat-paginator
+      class="paginator"
+      [length]="appStore.total()"
+      [pageSize]="appStore.pageSize()"
+      [pageSizeOptions]="[4, 12, 24, 40]"
+      aria-label="Select page"
+      (page)="
+        appStore.setPageSize($event.pageSize);
+        appStore.setPage($event.pageIndex)
+      "
+    />
+  </div>
+</main>

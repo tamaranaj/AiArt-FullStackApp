@@ -8,11 +8,11 @@ Registered users can also generate their own images and put them up for sale, wh
 Back-end was made in C#, in .NET framework, by the student Spase Naumovski.
 Front-end was made in JavaScript, in Angular framework by:
 
-1. Ana Mihajlovska - Home page, Account page and UI/UX on Register and Login pages
-2. Kiril Lisickov -Creator of the original idea of ​​the project, worked on Contact page with implementing the Web3Forms API
-3. Aleksandar Strezovski - About page
-4. Pavel Gjorgjievski - Register and Login pages, worked together with Aleksandar Strezovski
-5. Tamara Najdovska - Team lead of the project, worked on Categories, Cart, Favorites and Generate your art pages
+1. Tamara Najdovska - Team lead of the project, worked on Categories, Cart, Favorites and Generate your art pages
+2. Ana Mihajlovska - Home page, Account page and UI/UX on Register and Login pages
+3. Kiril Lisickov -Creator of the original idea of ​​the project, worked on Contact page with implementing the Web3Forms API
+4. Aleksandar Strezovski - About page
+5. Pavel Gjorgjievski - Register and Login pages, worked together with Aleksandar Strezovski
 
 Mentor of this project was Aneta Stankovska, mentor at QinShift Academy.
 

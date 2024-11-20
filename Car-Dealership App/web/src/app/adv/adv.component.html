@@ -1,0 +1,64 @@
+<div class="adv">
+  <div class="firstAdv">
+    <div class="info">
+      <!-- <h5>Your garage</h5> -->
+      <h3
+        style="
+          text-shadow: 1px 1px 2px #1869db, 0 0 5px #0e3e81, 0 0 5px #5191ea;
+        "
+      >
+        Add your car. Sell it faster!
+      </h3>
+      <p>
+        Add your car to Your Garage to track its market value.
+        <a routerLink="/">Learn more</a>
+      </p>
+      <div>
+        <button mat-flat-button (click)="navigate('register')">
+          GET STARTED
+        </button>
+      </div>
+
+      <p>Already have an account? <a routerLink="login">Sign in</a></p>
+    </div>
+    <div class="advImg">
+      <img src="car.jpg" alt="garage image" />
+    </div>
+  </div>
+
+  <div style="width: 100%; margin-top: 20px; margin-bottom: 20px">
+    <hr />
+  </div>
+  <h4>Sell your car your way</h4>
+  <div class="secondAdv">
+    <div class="stepsCont">
+      <div class="first" style="padding-left: 60px">
+        <img src="explore-ready-go.png" class="icon" />
+        <p>
+          <strong>Get an offer online</strong> and quickly complete the
+          transaction with a local dealer.
+        </p>
+      </div>
+      <div class="or">
+        <hr />
+        <p><strong>OR</strong></p>
+        <hr />
+      </div>
+      <div class="first">
+        <img src="explore-enter-details.png" class="icon" />
+        <p>
+          <strong>List your car for free.</strong> Set your own price and easily
+          showcase your car here.
+        </p>
+      </div>
+      <div class="imageCont">
+        <img src="sale-dealer-woman-brand-colors.png" width="100%" />
+      </div>
+    </div>
+    <div style="margin-bottom: 30px">
+      <button mat-flat-button (click)="navigate('register')">
+        Get started
+      </button>
+    </div>
+  </div>
+</div>

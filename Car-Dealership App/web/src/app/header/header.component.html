@@ -1,20 +1,47 @@
-<header class="header">
-  <mat-toolbar class="headerContainer">
-    <a routerLink="/" class="home">
-      <span><img src="file.png" alt="logo" width="100px" /></span>
-    </a>
+<mat-toolbar class="headerContainer">
+  <div class="routes">
+    <img
+      src="file.png"
+      alt=""
+      srcset=""
+      width="90"
+      style="cursor: pointer"
+      (click)="navigate()"
+    />
+
+    <span class="example-spacer">
+      <a routerLink="/shopping" routerLinkActive="active" class="homeIcon"
+        >Cars for sale
+      </a>
+      <a routerLink="/create" routerLinkActive="active" class="homeIcon"
+        >Sell your car
+      </a>
+      <a routerLink="/contact" routerLinkActive="active" class="homeIcon"
+        >Contact us
+      </a>
+    </span>
+  </div>
+
+  <nav>
     <ul class="navList">
       <li class="navItem">
-        <a routerLink="/create" routerLinkActive="active" class="homeIcon"
-          >Create announcement
+        <a routerLink="/favorite" routerLinkActive="active" class="homeIcon"
+          ><mat-icon
+            aria-hidden="false"
+            aria-label="heart icon"
+            fontIcon="favorite"
+          ></mat-icon>
         </a>
       </li>
       <li class="navItem">
-        <a routerLink="/contact" routerLinkActive="active" class="homeIcon"
-          >Contact us
+        <a routerLink="/account/info" routerLinkActive="active" class="homeIcon"
+          ><mat-icon
+            aria-hidden="false"
+            aria-label="account icon"
+            fontIcon="account_circle"
+          ></mat-icon>
         </a>
       </li>
     </ul>
-    <app-navbar />
-  </mat-toolbar>
-</header>
+  </nav>
+</mat-toolbar>

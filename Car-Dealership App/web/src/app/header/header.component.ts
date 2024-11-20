@@ -1,15 +1,22 @@
 import { Component } from '@angular/core';
-import { NavbarComponent } from '../navbar/navbar.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [NavbarComponent,MatToolbarModule, RouterLink],
+  imports: [MatToolbarModule ,RouterLink, MatIconModule ,MatButtonModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  constructor(private router: Router){ }
+  navigate(){
+    this.router.navigate(['/'])
+  }
 
+ 
 }

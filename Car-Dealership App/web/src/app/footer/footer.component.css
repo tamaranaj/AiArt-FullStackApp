@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 3px solid white;
+    /* margin-top: 70px; */
+    color: white;
+    padding: 50px;
+    
+}
+.links, .social{
+    
+    ul li{
+        list-style: none;
+        margin: 10px;
+        
+       
+    }
+}
+.social ul{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    li img{
+        cursor: pointer;
+    }
+}
+
+.homeIcon{
+    color: whitesmoke;
+  
+    font-size: 1.1em;
+    text-decoration: none;
+}
+.homeIcon:hover{
+    cursor: pointer;
+    text-decoration: 4px underline rgba(32, 32, 237, 0.53);
+}
+
+.links{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}

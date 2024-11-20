@@ -1,0 +1,90 @@
+.adv{
+   
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.firstAdv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+   display: flex;
+   border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 50%;
+   padding: 50px;
+    gap: 30px;
+    
+}
+.advImg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 90%;
+        border-radius: 15px;
+    }
+    
+}
+a{
+        color: #005CBB;
+}
+
+
+.secondAdv{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    gap:10px;
+    align-items: center;
+   width: 90%;
+    background-color: #fff;
+    color: black;
+
+    .stepsCont{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+        
+    }
+    
+}
+.first{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    border-radius: inherit;
+    
+}
+.imageCont{
+    width:20%;
+}
+.or{
+    display: flex;
+    width: 5%;
+    flex-direction: column;
+    align-items: center;
+    hr{
+        color: black;
+        height: 20px;
+    }
+}
+
+.icon{
+    width: 50px;
+}

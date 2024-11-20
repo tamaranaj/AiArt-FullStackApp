@@ -26,7 +26,7 @@ export class FavoritesComponent {
  }
  navigateItem(car: Car){
   
-  this.router.navigate([`cars/${car.id}`])
+  this.router.navigate([`shopping/cars/${car.id}`])
  }
 
  goBack(){

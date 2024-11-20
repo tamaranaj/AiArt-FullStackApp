@@ -1,0 +1,18 @@
+<div class="container">
+  @for (item of cars(); track $index) {
+  <div class="card">
+    <div class="imageCont">
+      <img [src]="item.images[0]" [alt]="item.model" />
+    </div>
+
+    <div class="details">
+      <p style="font-weight: 700">{{ item.brand }} - {{ item.model }}</p>
+      <p>
+        <a routerLink="shopping/cars/{{ item.id }}" style="color: #0e3e81"
+          >Shop Now</a
+        >
+      </p>
+    </div>
+  </div>
+  }
+</div>

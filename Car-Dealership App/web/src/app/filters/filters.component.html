@@ -1,5 +1,5 @@
-<div class="filters">
-  <div class="filterCont">
+<div class="filtersCont">
+  <div class="filters">
     <mat-form-field mat.form-field-color>
       <mat-label>Choose brand:</mat-label>
       <mat-select
@@ -23,18 +23,18 @@
         }
       </mat-select>
     </mat-form-field>
-  </div>
 
-  <div class="filterCont">
     <mat-radio-group
       [value]="selectSortDirection()"
       (change)="handleChange($event, updateSortDirection)"
       class="radio"
     >
       <mat-label>Choose order:</mat-label>
-      <mat-radio-button [value]="sortDirection.ASC">Ascending</mat-radio-button>
-      <mat-radio-button [value]="sortDirection.DESC"
-        >Descending</mat-radio-button
+      <mat-radio-button [value]="sortDirection.ASC" class="radioBtn"
+        ><p class="radioValue">Ascending</p></mat-radio-button
+      >
+      <mat-radio-button [value]="sortDirection.DESC" class="radioBtn"
+        ><p class="radioValue">Descending</p></mat-radio-button
       >
     </mat-radio-group>
 
@@ -45,11 +45,13 @@
     >
       <mat-label>Choose starting year:</mat-label>
       @for (item of carsYears(); track $index) {
-      <mat-radio-button [value]="item">{{ item }}</mat-radio-button>
+      <mat-radio-button [value]="item" class="radioBtn"
+        ><p class="radioValue">{{ item }}</p></mat-radio-button
+      >
       }
 
       <!-- <mat-radio-button [value]="2024">{{ 2024 }}</mat-radio-button>
-      <mat-radio-button [value]="undefined">All</mat-radio-button> -->
+        <mat-radio-button [value]="undefined">All</mat-radio-button> -->
     </mat-radio-group>
   </div>
 </div>

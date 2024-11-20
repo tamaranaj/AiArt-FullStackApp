@@ -1,14 +1,17 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { LoaderComponent } from './loader/loader.component';
+
 import { authGuard } from './auth.guard';
 
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
-    {path: 'cars', children:[
-        {path: ':id', loadComponent: ()=>import('./car-details/car-details.component').then(c=>c.CarDetailsComponent)}
-    ]}, 
+    {path: 'shopping',children:[
+        {path: '', loadComponent:()=>import('./cars-for-sell/cars-for-sell.component').then(c=>c.CarsForSellComponent)},
+        {path: 'cars', children:[
+            {path: ':id', loadComponent: ()=>import('./car-details/car-details.component').then(c=>c.CarDetailsComponent)}
+        ]},
+    ]},
     {path: 'contact', loadComponent: ()=>import('./contact/contact.component').then(c=>c.ContactComponent)},
     {path: 'login', loadComponent: ()=>import('./login/login.component').then(c=> c.LoginComponent)},
     {path: 'register', loadComponent: ()=>import('./register/register.component').then(c=> c.RegisterComponent)},

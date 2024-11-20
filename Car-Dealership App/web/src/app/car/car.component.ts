@@ -37,5 +37,8 @@ export class CarComponent {
   goToOrders(id: string){
     this.router.navigate([`orders/${id}`])  
   }
+  navigateDetails(id:string){
+    this.router.navigate([`shopping/cars/${ id }`])
+  }
 }
 
